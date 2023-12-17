@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+        font-family: cursive;
+        color:yellow;
+        background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(order1.jpg);
+        background-size: cover;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body bgcolor="gray">
+     <center><h1><i>Order</i></h1></center>
+     <center>
+    <form action="/submit_order" >
+      
+     <label for="item">Item  &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+     <input type="text" id="item" name="item" placeholder="Item Name"><br><br>
+        
+     <label for="quantity">Quantity  &nbsp;&nbsp;:&nbsp;&nbsp;</label>
+    <input type="number" id="quantity" name="quantity" placeholder="Quantity"><br><br>
+        
+     <label for="address">Address  &nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;</label>
+     <textarea id="address" name="address" placeholder="Mention Address"></textarea><br><br>
+     <input type="submit" value="Submit Order">
+    </form>
+    </center>
+</body>
+</html>
